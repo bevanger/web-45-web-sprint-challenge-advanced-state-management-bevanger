@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { createStore, applyMiddleware } from "react-redux";
+import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 
 import logger from 'redux-logger';
@@ -20,7 +20,7 @@ const rootElement = document.getElementById("root");
 
 ReactDOM.render(
     <Provider store={store}>
-    <App />, 
+    <App />
     </Provider>,
     rootElement
 );
